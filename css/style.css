@@ -16,8 +16,14 @@ html{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  padding-left: 930px;
-  padding-top: 3px
+  padding-top: 3px;
+  position: relative;
+}
+
+.nav_ul{
+  position: absolute;
+  display: inline;
+  right:0;
 }
 
 a {
@@ -107,6 +113,17 @@ li {
 	box-shadow: 0 1px 1px       rgba(0,0,0,0.1);
 }
 
+#container{
+  min-height:100%;
+  position:relative;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 #footer{
  list-style-type: none;
  margin: 0;
@@ -124,19 +141,21 @@ li {
   display: inline;
   margin: 0;
   padding: 0;
-  position: absolute;
+  float: left;
+  left: 0;
 }
 
 .ABA{
   padding-left: 27px;
   margin: 0;
+  display: inline-block;
 }
 
 .right_footer{
-  display: inline;
+  display: inline-block;
   padding: 0px 27px 0px 0px;
-  position: absolute;
-  right: 0;
+  position: relative;
+  float: right;
 }
 
 .PTS{
